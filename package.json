@@ -1,0 +1,21 @@
+{
+  "name": "json-server-swagger-ui",
+  "version": "1.0.0",
+  "description": "Simple json-base REST mock Server with swagger UI (to deploy or not to Heroku)",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "main": "mockServer.js",
+  "scripts": {
+    "start": "node mockServer.js",
+    "dev": "nodemon mockServer.js"
+  },
+  "keywords": [
+    "json-server,swagger, heroku, node, REST API"
+  ],
+  "author": "pl3bras",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  }
+}
